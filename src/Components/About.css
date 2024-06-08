@@ -1,0 +1,84 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+  
+  }
+  h1 {
+    margin-bottom: 2;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .about-image {
+    flex: 1 0 40%;
+    margin: 10px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    display: inline;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .about-boxes {
+    flex: 2 0 60%;
+    margin: 10px;
+  }
+  
+  .para {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .content {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .about-boxes h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 2px;
+  }
+  /* Added shadow effect to all `.about-box` and `.about-box1` classes */
+  .about-box,
+  .about-box1 {
+    /* background-color: #86e612; */
+    /* background-image: linear-gradient(to bottom, red, yellow); */
+    background-image: linear-gradient(45deg, rgb(126, 217, 28), yellow);
+    /* background-image: linear-gradient(to right, red 0%, yellow 50%, blue 100%); */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    /* Add your desired shadow properties here */
+    box-shadow: 10px 10px 2px rgba(10, 10, 10, 0.3);
+  }
+  
+  .about-box h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .about-box h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .about-box1 {
+    background-color: rgb(213, 201, 201);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 7px;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  

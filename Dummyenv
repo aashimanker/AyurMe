@@ -1,0 +1,8 @@
+VITE_PROJECT_ID = xxxxx
+VITE_APPWRITE_URL = xxxxxx
+VITE_APPWRITE_DB_ID = xxxxxxxxxxx
+VITE_APPWRITE_COLLECTION_ID = xxxxxxxxxx
+VITE_RECIPE_API_ID = xxxxxxxxxxxxxxxxx
+VITE_RECIPE_API_KEY = xxxxxxxxxxxxxxxxxxxxxxxx
+VITE_NUTRITION_API_ID = xxxxxxxxxxxxx
+VITE_NUTRITION_API_KEY = xxxxxxxxxxxxxxxx
